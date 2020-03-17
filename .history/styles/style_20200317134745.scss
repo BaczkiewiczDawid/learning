@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    background: #CE7575;
+    font-family: "Roboto", sans-serif;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    .navigation {
+        li {
+            display: flex;
+            flex-direction: row;
+            a {
+                text-decoration: none;
+                color: #fafafa;
+            }
+        }
+    }
+}
